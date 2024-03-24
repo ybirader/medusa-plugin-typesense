@@ -15,7 +15,7 @@
   "author": "Yusuf Birader",
   "license": "MIT",
   "scripts": {
-    "prepublishOnly": "cross-env NODE_ENV=production tsc --build",
+    "prepare": "cross-env NODE_ENV=production npm run build",
     "test": "jest --passWithNoTests src",
     "build": "rimraf dist && tsc",
     "watch": "tsc --watch"
