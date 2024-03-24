@@ -16,12 +16,14 @@ Provide powerful indexing and searching features in your commerce application wi
 
 1. Run the following command in the directory of the Medusa backend:
 
-npm install medusa-plugin-typesense
+`npm install medusa-plugin-typesense`
 
 2. Set the following environment variables in .env:
 
+```
 TYPESENSE_NODES=<YOUR_TYPESENSE_NODES>
 TYPESENSE_API_KEY=<YOUR_MASTER_KEY>
+```
 
 For development, the API key is `xyz` by default.
 
